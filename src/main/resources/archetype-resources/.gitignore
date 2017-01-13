@@ -1,0 +1,31 @@
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### OSX ###
+*.DS_Store
+
+### Windows ###
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
