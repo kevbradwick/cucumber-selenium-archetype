@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.kevbradwick.archetypes</groupId>
-    <artifactId>cucumber-browser-quickstart</artifactId>
+    <artifactId>cucumber-selenium-quickstart</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>cucumber-browser-quickstart</name>
-    <url>http://github.com/kevbradwick/cucumber-browser-quickstart</url>
+    <name>cucumber-selenium-quickstart</name>
+    <url>http://github.com/kevbradwick/cucumber-selenium-quickstart</url>
 
     <properties>
         <java.version>1.8</java.version>
@@ -17,8 +17,8 @@
     </properties>
 
     <scm>
-        <url>https://github.com/kevbradwick/cucumber-browser-quickstart</url>
-        <developerConnection>scm:git:git@github.com:kevbradwick/cucumber-browser-quickstart.git</developerConnection>
+        <url>https://github.com/kevbradwick/cucumber-selenium-quickstart</url>
+        <developerConnection>scm:git:git@github.com:kevbradwick/cucumber-selenium-quickstart.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
