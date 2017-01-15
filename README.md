@@ -12,7 +12,7 @@ be set up with
 
 ### Creating a new project
 
-    mvn archetype:generate -DarchetypeGroupId=com.github.kevbradwick -DarchetypeArtifactId=cucumber-selenium-archetype -DarchetypeVersion=1.0.0
+    mvn archetype:generate -DarchetypeGroupId=com.github.kevbradwick -DarchetypeArtifactId=cucumber-selenium-archetype -DarchetypeVersion=1.0.1
     
 ### Running tests
 
