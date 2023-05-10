@@ -15,8 +15,9 @@
         <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
         <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
         <archetype.encoding>${encoding}</archetype.encoding>
-        <cucumber.version>1.2.5</cucumber.version>
-        <selenium.version>3.0.1</selenium.version>
+        <cucumber.version>7.12.0</cucumber.version>
+        <selenium.version>4.9.1</selenium.version>
+        <junit.version>4.13.2</junit.version>
     </properties>
 
     <build>
@@ -86,7 +87,7 @@
                             <goal>generateRunners</goal>
                         </goals>
                         <configuration>
-                            <glue>${groupId}</glue>
+                            <glue>br.vsdb</glue>
                             <outputDirectory>${project.build.directory}/generated-test-sources/cucumber</outputDirectory>
                             <featuresDirectory>src/test/resources/features/</featuresDirectory>
                             <cucumberOutputDir>target/cucumber-reports</cucumberOutputDir>
@@ -143,30 +144,34 @@
             <artifactId>guice</artifactId>
             <version>4.1.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-guice -->
         <dependency>
-            <groupId>info.cukes</groupId>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-guice</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
 
 
+
         <!-- test dependencies -->
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
-            <groupId>info.cukes</groupId>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
-            <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
         <dependency>
-            <groupId>info.cukes</groupId>
+            <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
