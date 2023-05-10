@@ -87,7 +87,7 @@
                             <goal>generateRunners</goal>
                         </goals>
                         <configuration>
-                            <glue>br.vsdb</glue>
+                            <glue>${groupId}</glue>
                             <outputDirectory>${project.build.directory}/generated-test-sources/cucumber</outputDirectory>
                             <featuresDirectory>src/test/resources/features/</featuresDirectory>
                             <cucumberOutputDir>target/cucumber-reports</cucumberOutputDir>
